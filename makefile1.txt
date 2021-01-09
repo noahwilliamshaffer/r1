@@ -1,0 +1,6 @@
+example1.x: example1.cpp
+	g++ -std=c++11 -Wall -pedantic -o example1.x example1.cpp
+
+clean:
+	rm -f *.o *.x core.*
+

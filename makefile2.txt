@@ -1,0 +1,9 @@
+#CXX=g++47
+CXXFLAGS=-std=c++11 -Wall -pedantic
+
+example1.x: example1.cpp
+	$(CXX) $(CXXFLAGS) -o $@ $<
+
+clean:
+	rm -f *.o *.x core.*
+
